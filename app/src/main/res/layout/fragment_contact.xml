@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.firstapp.ContactFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageContect1"
+            android:layout_width="66dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/facebook"
+            app:layout_constraintBottom_toTopOf="@+id/imageContect2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textContect" />
+
+        <ImageView
+            android:id="@+id/imageContect2"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/line"
+            app:layout_constraintBottom_toTopOf="@+id/imageContect3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageContect1" />
+
+        <ImageView
+            android:id="@+id/imageContect3"
+            android:layout_width="74dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ig"
+            app:layout_constraintBottom_toTopOf="@+id/imageContect4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageContect2" />
+
+        <ImageView
+            android:id="@+id/imageContect4"
+            android:layout_width="80dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/phone"
+            app:layout_constraintBottom_toTopOf="@+id/imageContect15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageContect3" />
+
+        <ImageView
+            android:id="@+id/imageContect15"
+            android:layout_width="75dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/email"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageContect4" />
+
+        <TextView
+            android:id="@+id/textContect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/contact"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/contectfacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Nakhon Start"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/contectemail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toEndOf="@+id/imageContect1"
+            app:layout_constraintTop_toBottomOf="@+id/textContect"
+            app:layout_constraintVertical_bias="0.122" />
+
+        <TextView
+            android:id="@+id/contectline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="startty002"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/contectemail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toEndOf="@+id/imageContect2"
+            app:layout_constraintTop_toBottomOf="@+id/contectfacebook"
+            app:layout_constraintVertical_bias="0.219" />
+
+        <TextView
+            android:id="@+id/contectig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="nakh0n"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/contectemail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toEndOf="@+id/imageContect3"
+            app:layout_constraintTop_toBottomOf="@+id/contectline"
+            app:layout_constraintVertical_bias="0.268" />
+
+        <TextView
+            android:id="@+id/contectphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="090-9960379"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/contectemail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toEndOf="@+id/imageContect4"
+            app:layout_constraintTop_toBottomOf="@+id/contectig"
+            app:layout_constraintVertical_bias="0.44" />
+
+        <TextView
+            android:id="@+id/contectemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:fontFamily="@font/aclonica"
+            android:text="nakhon.la@rmuti.ac.th"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.43"
+            app:layout_constraintStart_toEndOf="@+id/imageContect15" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

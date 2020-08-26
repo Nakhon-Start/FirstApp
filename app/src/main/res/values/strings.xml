@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+    <string name="textProfile2">เข้าสู่ระบบบัญชีอื่น</string>
+    <string name="textProfile3">สมัครใช้งาน Facebook</string>
+    <string name="name">Name: Nakhon  lajanthuek</string>
+    <string name="nickname">Nickname: Start</string>
+    <string name="age">age: 20 years old</string>
+    <string name="name2">Name?</string>
+    <string name="aboutmy">Birthday: 31 October 1999\n\nBlood’s Group: A\n\nEducation’s Background: Rajamangala University of Technology Isan
+    \n\nMy place: 104/3 Village No. 18 Sikhio Ball, Sikhio District, Nakhon Ratchasima Province</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">Add</string>
+    <string name="add_costom">Add costom</string>
+</resources>
