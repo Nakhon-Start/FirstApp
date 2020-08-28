@@ -1,7 +1,6 @@
 package com.example.firstapp
 
 import android.app.Application
-import android.content.res.Resources
 import android.os.Build
 import android.text.Html
 import android.text.Spanned
