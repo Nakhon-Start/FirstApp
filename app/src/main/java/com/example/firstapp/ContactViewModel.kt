@@ -1,6 +1,7 @@
 package com.example.firstapp
 
 import android.app.Application
+import android.content.res.Resources
 import android.os.Build
 import android.text.Html
 import android.text.Spanned
@@ -55,8 +56,8 @@ class ContactViewModel(
     fun onContactAdd() {
         uiScope.launch {
             val newContact = Contact()
-            newContact.name = binding.buttonInsert.text.toString()
-            newContact.lastname = binding.textview.text.toString()
+            newContact.name = binding.editTextTextName.text.toString()
+            newContact.lastname = binding.editTextlastname.text.toString()
             insert(newContact)
         }
     }
