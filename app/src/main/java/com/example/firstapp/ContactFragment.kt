@@ -5,7 +5,6 @@ import android.view.*
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.fragment.findNavController
 import com.example.firstapp.database.ContactDatabase
 import com.example.firstapp.databinding.FragmentContactBinding
 
@@ -19,9 +18,6 @@ class ContactFragment : Fragment() {
             false
 
         )
-
-        binding.floatingActionButton.setOnClickListener{findNavController().navigate(R.id.action_contactFragment_to_addContactFragment)}
-
         setHasOptionsMenu(true)
         val application = requireNotNull(this.activity).application
         val dataSource = ContactDatabase.getInstance(application).contactDAo

@@ -10,6 +10,6 @@ data class Contact (
     var id: Long = 0L,
     @ColumnInfo(name = "name")
     var name: String = "unnamed",
-    @ColumnInfo(name = "phone")
+    @ColumnInfo(name = "lastname")
     var lastname: String = ""
 )
